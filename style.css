@@ -176,7 +176,7 @@ h1{
         /* margin: auto; */
     }
     .insight{
-        width: 100%;
+        width: 90%;
         display: block;
          margin-top: 3rem;
         /* background-color:white; */
@@ -186,13 +186,13 @@ h1{
         box-shadow: none;        
     }
     .insightImg{
-        width: 100%;
+        width: 90%;
         border-radius: 0;
         /* height: 100%; */
     }
     .branches{
         text-align: left;
-        width: 100%;
+        width: 90%;
         margin-left: 0;
         padding-bottom: 0;
     }
@@ -202,13 +202,11 @@ h1{
      }
      footer{
         display: block;
-        /* margin-top: 7rem; */
+        margin-top: 2rem;
     }
     .footerLinks{
         display: block;
         /* text-align: left; */
     }
-    body{
-        padding: 2rem;
-    }
+    
 }
