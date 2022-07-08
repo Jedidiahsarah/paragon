@@ -215,8 +215,8 @@ h1{
         width: 90%;
     } */
 }
-@media(prefers-color-scheme:dark) {
+/* @media(prefers-color-scheme:dark) {
     .insight{
         box-shadow: none;        
     }
-  }
+  } */
