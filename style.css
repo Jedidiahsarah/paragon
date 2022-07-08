@@ -208,5 +208,7 @@ h1{
         display: block;
         /* text-align: left; */
     }
-    
+    body{
+        padding: 2rem;
+    }
 }
