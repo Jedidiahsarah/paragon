@@ -178,7 +178,7 @@ h1{
     .insight{
         width: 90%;
         display: block;
-         margin-top: 3rem;
+         /* margin-top: 3rem; */
         /* background-color:white; */
         margin:0;
         border-radius: none;
@@ -207,6 +207,9 @@ h1{
     .footerLinks{
         display: block;
         /* text-align: left; */
+    }
+    nav{
+        width: 100%;
     }
     
 }
