@@ -154,6 +154,9 @@ h1{
 }
 
 @media (max-width: 800px){
+    .insight{
+        display: block;
+    }
     .menuBtn{
         display: block;
     }
