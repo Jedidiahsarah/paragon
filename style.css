@@ -177,7 +177,7 @@ h1{
         display: block;
          /* margin-top: 3rem; */
         /* background-color:white; */
-        margin:auto;
+        margin:0;
         border-radius: none;
         margin-top: 0;
         box-shadow: none;        
@@ -205,10 +205,10 @@ h1{
         display: block;
         /* text-align: left; */
     }
-    nav{
+    /* nav{
         width: 100%;
     }
     section{
         width: 90%;
-    }
+    } */
 }
