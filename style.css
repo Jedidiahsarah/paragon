@@ -154,9 +154,6 @@ h1{
 }
 
 @media (min-width: 50em) and (max-width: 60em){
-    .insight{
-        display: block;
-    }
     .menuBtn{
         display: block;
     }
@@ -188,6 +185,8 @@ h1{
     .insightImg{
         width: 90%;
         border-radius: 0;
+        block-size: auto;
+        object-fit: contain;
         /* height: 100%; */
     }
     .branches{
