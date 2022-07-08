@@ -1,0 +1,157 @@
+@font-face {
+    font-family: Roboto;
+    src: url('/fonts/roboto-regular.woff2') format('woff2');
+  }
+  body {
+    font-family: Roboto, sans-serif;
+  }
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 0px 8px 5px rgb(201, 198, 198);
+    height: 100px;
+    width: 100%;
+    margin-bottom: 5em;
+    align-items: center;
+    position: sticky;
+}
+.logo{
+    width: 130px;
+}
+.menu a{
+    margin: 2rem;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.captionP{
+    font-size: 2ch;
+    width: 75%;
+    margin: auto;
+}
+.board{
+    width: 75%;
+    height: 90px;
+    border-radius: 50px;
+    text-align: center;
+    box-shadow: 0px 8px 5px #ccc;
+    margin: auto;
+}
+.frontYard{
+    width: 70%;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+    margin-top: 2.5em;
+}
+.insight{
+    width: 70%;
+    display: flex;
+    margin-top: 3rem;
+    background-color:white;
+    margin: auto;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    box-shadow: 8px 8px 5px #ccc;
+    
+}
+.branches{
+    text-align: left;
+    /* background-color: red; */
+    width: 400px;
+    /* width: 60%; */
+    margin-left: 3rem;
+    padding-bottom: 2rem;
+    
+   
+}
+
+.insightImg{
+    width: 400px;
+    border-radius: 1rem 0rem 0rem 1rem;
+    /* height: 100%; */
+}
+
+h2{
+    font-weight: bold;
+}
+main{
+    text-align: center;    
+    color: #4e5d78;
+    line-height: 2rem;
+}
+.boardP{
+   padding: 1.3rem;
+   font-size: 2ch;
+}
+.caption{
+    width: 60%;
+    margin: auto;
+}
+.feature{
+    width: 100px;
+    height: 30px;
+    background-color: #e9f9f0;
+    /* margin: auto; */
+    border-radius: 50px;
+    align-items: center;
+    color: green;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* padding-top: 8px; */
+    text-align: center;
+}
+.features{
+    width: 100px;
+    height: 30px;
+    background-color: #e9f9f0;
+    margin: auto;
+    border-radius: 50px;
+    align-items: center;
+    color: green;
+    margin-top: 2.5rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    /* padding-top: 8px; */
+    text-align: center;
+}
+.caption a{
+    color: blue;
+   
+}
+footer{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 7rem;
+    
+
+}
+.footerLinks{
+    display: flex;
+    text-align: left;
+}
+ul{
+    list-style-type: none; 
+}
+ul a{
+    text-decoration: none;
+    color: #4e5d78;
+    margin: none;
+}
+ul p{
+    color: black;
+    font-weight: bold;
+}
+h1{
+    font-size: 4ch;
+}
+.socials{
+    margin-top: 2rem;
+}
+
+@media(max-width: 800px){
+    .insight{
+        display: block;
+    }
+}
