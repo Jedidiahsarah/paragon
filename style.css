@@ -211,5 +211,7 @@ h1{
     nav{
         width: 100%;
     }
-    
+    section{
+        width: 90%;
+    }
 }
