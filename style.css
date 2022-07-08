@@ -181,7 +181,7 @@ h1{
          margin-top: 3rem;
         /* background-color:white; */
         margin:0;
-        border-radius: 0;
+        border-radius: none;
         margin-top: 0;
         box-shadow: none;        
     }
