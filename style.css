@@ -169,7 +169,7 @@ h1{
     .frontYard{
         width: 100%;
         /* height: 300px; */
-        margin-top: 2em;
+        margin-top: 2rem;
     }
     .caption{
         width: 100%;
@@ -182,7 +182,7 @@ h1{
         /* background-color:white; */
         margin:auto;
         border-radius: none;
-        margin-top: 0;
+        margin-top: 2rem;
         box-shadow: none;        
     }
     .insightImg{
@@ -215,9 +215,8 @@ h1{
         width: 90%;
     } */
 }
-/* @media (prefers-color-scheme: dark) {
-    body{
-        background-color: black;
-        color: wheat;
+@media (prefers-color-scheme: dark) {
+    .insight{
+        box-shadow: none;        
     }
-  } */
+  }
